@@ -130,3 +130,7 @@ def main_loop():
         history = trim_history(history)
         save_history(history)
     save_history(history)
+        print(Fore.GREEN + "Sessiya saqlandi" + Style.RESET_ALL)
+
+if __name__ == "__main__":
+    main_loop()
