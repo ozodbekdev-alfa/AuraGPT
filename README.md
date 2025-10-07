@@ -8,3 +8,7 @@ bash auraGPT.sh
 ```
 
 [ozodbekdev.uz](https://ozodbekdev.uz)      [telegram](https://t.me/ozodbekdevv)
+
+
+
+![Logo](Screenshot.png) 
