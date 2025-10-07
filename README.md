@@ -1,5 +1,5 @@
 # AuraGPT - Ai in the Terminal
-## code:
+## bash:
 
 ```bash
 git clone https://github.com/ozodbekdev-alfa/AuraGPT
