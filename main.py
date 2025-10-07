@@ -14,7 +14,7 @@ from colorama import init as colorama_init, Fore, Style
 colorama_init()
 
 API_URL = "https://ozodbekdev.uz/api/deepai/"
-SYSTEM_PROMPT = "Seni isming AuraGPT. sen hackerlar uchun yordamchi chatbotsan va terminalda ishga tushirilgansan. dasturching: @ozodbekdevv"
+SYSTEM_PROMPT = ""
 MAX_HISTORY = 15
 HISTORY_FILE = "history.json"
 REQUEST_TIMEOUT = 60
@@ -130,7 +130,7 @@ def main_loop():
         history = trim_history(history)
         save_history(history)
     save_history(history)
-        print(Fore.GREEN + "Sessiya saqlandi" + Style.RESET_ALL)
+    print(Fore.GREEN + "Sessiya saqlandi" + Style.RESET_ALL)
 
 if __name__ == "__main__":
     main_loop()
